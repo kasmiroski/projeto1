@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60px;
+
+  padding: 0px 40px;
+}
+
+nav{
+  display: flex;
+
+  height: 100%;
+  width: 600px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button_menu{
+  padding: 16px;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+justify-content: center;
+}
+
+.logo{
+  width: 100px;
+  object-fit: contain;
+}

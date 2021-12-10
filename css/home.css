@@ -1,0 +1,38 @@
+.home{
+width: 100vw;
+}
+
+#capa{
+  height: 717px;
+  width: 100%;
+
+  object-fit: cover;
+
+  position: relative;
+
+}
+
+#presentation {
+  position: absolute;
+
+  z-index: 10;
+
+  left: min(100px,30%);
+
+  top: 40%;
+}
+
+#presentation_title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  color:#ffff;
+
+  font-weight: 700;
+}
+#presentation_text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:#ffff;
+
+  font-weight: 700;
+}

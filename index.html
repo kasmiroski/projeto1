@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Bulldog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Secular+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/global.css">
+
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/recommendation.css">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <img src="./assets/logo_colors.svg" alt="Bulldog" class="logo">
+    <nav>
+      <a href="#" class="button_menu">Inicio</a>
+      <a href="#" class="button_menu">Sobre nos</a>
+      <a href="#" class="button_menu">Depoimentos</a>
+      <a href="#" class="button_menu">Fale Conosco</a>
+    </nav>
+  </header>
+  <section id="home">
+    <div id="presentation">
+      <h1 id="presentation_title">O Melhor</h1>
+      <p id="presentation_text">para o seu melhor amigo</p>
+    </div>
+    <img src="assets/foto_capa.jpg" alt="" id="capa">
+
+  </section>
+  <section id="about">
+    <div class="section-title">
+      <h2>Sobre Nós</h2>
+    </div>
+    <div class="row">
+
+      <div class="info-box">
+        <span class="info-box-id">1</span>
+        <p class="info-box-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus non id dui nunc. Massa nulla euismod turpis
+          facilisi id. Fermentum nunc tortor elementum, faucibus massa augue. Ultrices nisi, viverra magna sollicitudin
+          in dui, euismod risus sed. Congue egestas mauris blandit pellentesque.
+        </p>
+      </div>
+      <div class="info-box">
+        <span class="info-box-id">2</span>
+        <p class="info-box-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus non id dui nunc. Massa nulla euismod turpis
+          facilisi id. Fermentum nunc tortor elementum, faucibus massa augue. Ultrices nisi, viverra magna sollicitudin
+          in dui, euismod risus sed. Congue egestas mauris blandit pellentesque.
+        </p>
+      </div>
+      <div class="info-box">
+        <span class="info-box-id">3</span>
+        <p class="info-box-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus non id dui nunc. Massa nulla euismod turpis
+          facilisi id. Fermentum nunc tortor elementum, faucibus massa augue. Ultrices nisi, viverra magna sollicitudin
+          in dui, euismod risus sed. Congue egestas mauris blandit pellentesque.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="recommendation">
+    <div class="section-title section-title-light">
+      <h2>Quem Recomenda</h2>
+    </div>
+    <div id="commentaries">
+      <article class="commentary-box">
+        <div class="client-image-container">
+          <img class="client-photo" src="./assets/foto1.jpeg" alt="foto do usario">
+        </div>
+        <div class="commentary-text-container">
+          <p class="client-commentary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet debitis magnam reiciendis ipsam facilis,
+            eligendi sapiente deleniti? Officiis possimus quae, expedita, culpa iste fugiat ipsa in enim, labore
+            deleniti eius.
+          </p>
+          <span class="client-name">Paolla</span>
+          <p class="commentary-quot">"</p>
+        </div>
+      </article>
+      <article class="commentary-box">
+        <div class="client-image-container">
+          <img class="client-photo" src="./assets/foto2.jpeg" alt="foto do usario">
+        </div>
+        <div class="commentary-text-container">
+          <p class="client-commentary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet debitis magnam reiciendis ipsam facilis,
+            eligendi sapiente deleniti? Officiis possimus quae, expedita, culpa iste fugiat ipsa in enim, labore
+            deleniti eius.
+          </p>
+          <span class="client-name">Joana</span>
+          <p class="commentary-quot">"</p>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <section id="formulario">
+    <div class="section-title">
+      <h2>Dados do PET e Tutor</h2>
+    </div>
+    <form action="#" method="get" target="_blank">
+
+      <label class="label_form" for="nome">Nome:</label>
+      <input class="input_texto" type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+
+      <div class="telefone_email_nascimento">
+        <div>
+          <label class="label_form" for="number">Telefone</label>
+          <input class="input_texto" type="number" id="number" name="number" placeholder="(00)00000-0000" required>
+        </div>
+        <div>
+          <label class="label_form" for="email">Seu Email</label>
+          <input class="input_texto" type="email" id="email" name="email" placeholder="email@email.com" required>
+        </div>
+        <div>
+          <label class="label_form" for="data">Data de Nascimento</label>
+          <input class="input_texto" type="date" id="date" name="nascimento" required>
+        </div>
+      </div>
+
+      <!--     
+        <label for="file">Sua Foto</label>
+        <input type="file" id="file" name="file" accept=".png, .svg, .jpeg" multiple> -->
+
+
+
+
+      <div class="animais">
+        <span>Tipo do Seu Pet:</span>
+        <div>
+          <label class="label_form" for="silvestre">Silvestre/Exotico</label>
+          <input type="checkbox" id="silvestre" name="silvestre" value="sim"><br>
+        </div>
+        <div>
+          <label class="label_form" for="Cao">Cão</label>
+          <input type="checkbox" id="cao" name="cao" value="sim"><br>
+        </div>
+        <div>
+          <label class="label_form" for="gato">Gato</label>
+          <input type="checkbox" id="gato" name="gato" value="sim">
+        </div>
+      </div>
+
+      <div class="genero">
+        <span>Genero:</span>
+        <div>
+          <label class="label_form" for="feminino">feminino</label>
+          <input type="radio" id="feminino" name="genero" value="feminino" required><br>
+        </div>
+        <div>
+          <label class="label_form" for="masculino">masculino</label>
+          <input type="radio" id="masculino" name="genero" value="masculino" required><br>
+        </div>
+      </div>
+
+
+      <label class="label_form" for="select">Selecione o Banco Para Pagamento:</label>
+      <select class="input_texto" id="banco" name="banco">
+        <option value="Brasil" label="Banco do Brasil"></option>
+        <option value="Caixa" label="Caixa Economica Federal"></option>
+        <option value="Santander" label="Santander"></option>
+        <option value="Bradesco" label="Bradesco"></option>
+        <option value="Itau" label="Itau"></option>
+      </select>
+
+
+
+
+      <label class="label_form" for="password">Sua Senha</label>
+      <input class="input_texto" type="password" id="password" name="password" placeholder="Sua Senha" required>
+
+
+      <div class="form_button">
+        <div>
+          <button type="reset">Reset</button>
+          <button id="submit_button" type="submit">Enviar</button>
+        </div>
+      </div>
+
+    </form>
+
+  </section>
+
+  <footer class="footer-site">
+    <img src="./assets/logo_pb.svg" alt="pug" class="logo">
+
+    <span>contato@logo.com.br</span>
+
+  </footer>
+
+</body>
+
+</html>
