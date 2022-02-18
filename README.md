@@ -1,6 +1,5 @@
 
-<p align="center">![projetoPUG](https://user-images.githubusercontent.com/94720304/154761116-7beab0e0-80cc-49dc-937c-6247c38fcf31.png)
-</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/94720304/154761116-7beab0e0-80cc-49dc-937c-6247c38fcf31.png" width="800px"></p>
 
 # PetShop&Clinic
 
